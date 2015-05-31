@@ -1,0 +1,205 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ALIGN	linkage.h	47;"	d
+ALIGN_STR	linkage.h	48;"	d
+ASM_NL	linkage.h	16;"	d
+CONFIG_BAUDRATE	board.c	87;"	d	file:
+CPP_ASMLINKAGE	linkage.h	20;"	d
+CPP_ASMLINKAGE	linkage.h	22;"	d
+END	linkage.h	63;"	d
+ENDPROC	linkage.h	68;"	d
+ENTRY	linkage.h	54;"	d
+FIQ_STACK_START	vectors.S	/^FIQ_STACK_START:$/;"	l
+IRQ_STACK_START	vectors.S	/^IRQ_STACK_START:$/;"	l
+IRQ_STACK_START_IN	vectors.S	/^IRQ_STACK_START_IN:$/;"	l
+I_BIT	vectors.S	/^#define I_BIT	 0x80$/;"	d
+LENTRY	linkage.h	50;"	d
+MODE_SVC	vectors.S	/^#define MODE_SVC 0x13$/;"	d
+SYMBOL_NAME	linkage.h	30;"	d
+SYMBOL_NAME_LABEL	linkage.h	32;"	d
+SYMBOL_NAME_LABEL	linkage.h	34;"	d
+SYMBOL_NAME_STR	linkage.h	29;"	d
+S_FP	vectors.S	/^#define S_FP		44$/;"	d
+S_FRAME_SIZE	vectors.S	/^#define S_FRAME_SIZE	72$/;"	d
+S_IP	vectors.S	/^#define S_IP		48$/;"	d
+S_LR	vectors.S	/^#define S_LR		56$/;"	d
+S_OLD_R0	vectors.S	/^#define S_OLD_R0	68$/;"	d
+S_PC	vectors.S	/^#define S_PC		60$/;"	d
+S_PSR	vectors.S	/^#define S_PSR		64$/;"	d
+S_R0	vectors.S	/^#define S_R0		0$/;"	d
+S_R1	vectors.S	/^#define S_R1		4$/;"	d
+S_R10	vectors.S	/^#define S_R10		40$/;"	d
+S_R2	vectors.S	/^#define S_R2		8$/;"	d
+S_R3	vectors.S	/^#define S_R3		12$/;"	d
+S_R4	vectors.S	/^#define S_R4		16$/;"	d
+S_R5	vectors.S	/^#define S_R5		20$/;"	d
+S_R6	vectors.S	/^#define S_R6		24$/;"	d
+S_R7	vectors.S	/^#define S_R7		28$/;"	d
+S_R8	vectors.S	/^#define S_R8		32$/;"	d
+S_R9	vectors.S	/^#define S_R9		36$/;"	d
+S_SP	vectors.S	/^#define S_SP		52$/;"	d
+WEAK	linkage.h	58;"	d
+_LINUX_LINKAGE_H	linkage.h	10;"	d
+__ALIGN	linkage.h	38;"	d
+__ALIGN_STR	linkage.h	42;"	d
+__SERIAL_H__	serial.h	2;"	d
+__bss_end	sections.c	/^char __bss_end[0] __attribute__((section(".__bss_end")));$/;"	v
+__bss_start	sections.c	/^char __bss_start[0] __attribute__((section(".__bss_start")));$/;"	v
+__image_copy_end	sections.c	/^char __image_copy_end[0] __attribute__((section(".__image_copy_end")));$/;"	v
+__image_copy_start	sections.c	/^char __image_copy_start[0] __attribute__((section(".__image_copy_start")));$/;"	v
+__rel_dyn_end	sections.c	/^char __rel_dyn_end[0] __attribute__((section(".__rel_dyn_end")));$/;"	v
+__rel_dyn_start	sections.c	/^char __rel_dyn_start[0] __attribute__((section(".__rel_dyn_start")));$/;"	v
+__secure_end	sections.c	/^char __secure_end[0] __attribute__((section(".__secure_end")));$/;"	v
+__secure_start	sections.c	/^char __secure_start[0] __attribute__((section(".__secure_start")));$/;"	v
+_data_abort	vectors.S	/^_data_abort:		.word data_abort$/;"	l
+_end	sections.c	/^char _end[0] __attribute__((section(".__end")));$/;"	v
+_fiq	vectors.S	/^_fiq:			.word fiq$/;"	l
+_irq	vectors.S	/^_irq:			.word irq$/;"	l
+_not_used	vectors.S	/^_not_used:		.word not_used$/;"	l
+_prefetch_abort	vectors.S	/^_prefetch_abort:	.word prefetch_abort$/;"	l
+_software_interrupt	vectors.S	/^_software_interrupt:	.word software_interrupt$/;"	l
+_start	vectors.S	/^_start:$/;"	l
+_undefined_instruction	vectors.S	/^_undefined_instruction:	.word undefined_instruction$/;"	l
+altera_jtag_serial_initialize	serial.c	/^serial_initfunc(altera_jtag_serial_initialize);$/;"	v
+altera_serial_initialize	serial.c	/^serial_initfunc(altera_serial_initialize);$/;"	v
+amirix_serial_initialize	serial.c	/^serial_initfunc(amirix_serial_initialize);$/;"	v
+arc_serial_initialize	serial.c	/^serial_initfunc(arc_serial_initialize);$/;"	v
+arch_cpu_init	board.c	/^__weak int arch_cpu_init(void)$/;"	f
+arm_dcc_initialize	serial.c	/^serial_initfunc(arm_dcc_initialize);$/;"	v
+arm_pci_init	board.c	/^static int arm_pci_init(void)$/;"	f	file:
+asc_serial_initialize	serial.c	/^serial_initfunc(asc_serial_initialize);$/;"	v
+asmlinkage	linkage.h	26;"	d
+atmel_serial_initialize	serial.c	/^serial_initfunc(atmel_serial_initialize);$/;"	v
+au1x00_serial_initialize	serial.c	/^serial_initfunc(au1x00_serial_initialize);$/;"	v
+baudrate_table	serial.c	/^static const unsigned long baudrate_table[] = CONFIG_SYS_BAUDRATE_TABLE;$/;"	v	file:
+bauds	serial.c	/^static const int bauds[] = CONFIG_SYS_BAUDRATE_TABLE;$/;"	v	file:
+bfin_jtag_initialize	serial.c	/^serial_initfunc(bfin_jtag_initialize);$/;"	v
+bfin_serial_initialize	serial.c	/^serial_initfunc(bfin_serial_initialize);$/;"	v
+blue_led_off	board.c	/^__weak void blue_led_off(void) {}$/;"	f
+blue_led_on	board.c	/^__weak void blue_led_on(void) {}$/;"	f
+bmw_serial_initialize	serial.c	/^serial_initfunc(bmw_serial_initialize);$/;"	v
+board_init_f	board.c	/^void board_init_f(ulong bootflag)$/;"	f
+board_init_r	board.c	/^void board_init_r(gd_t *id, ulong dest_addr)$/;"	f
+c_runtime_cpu_setup	start.S	/^c_runtime_cpu_setup:$/;"	l
+clear	serial.h	/^	int (*clear)(struct udevice *dev);$/;"	m	struct:dm_serial_ops
+clps7111_serial_initialize	serial.c	/^serial_initfunc(clps7111_serial_initialize);$/;"	v
+clr_gd	crt0.S	/^clr_gd:$/;"	l
+cogent_serial_initialize	serial.c	/^serial_initfunc(cogent_serial_initialize);$/;"	v
+coloured_LED_init	board.c	/^__weak void coloured_LED_init(void) {}$/;"	f
+cpci750_serial_initialize	serial.c	/^serial_initfunc(cpci750_serial_initialize);$/;"	v
+cpu_init_crit	start.S	/^cpu_init_crit:$/;"	l
+data_abort	vectors.S	/^data_abort:$/;"	l
+default_serial_puts	serial.c	/^void default_serial_puts(const char *s)$/;"	f
+display_banner	board.c	/^static int display_banner(void)$/;"	f	file:
+display_dram_config	board.c	/^static int display_dram_config(void)$/;"	f	file:
+display_fdt_model	board.c	/^static void display_fdt_model(const void *blob)$/;"	f	file:
+dm_serial_ops	serial.h	/^struct dm_serial_ops {$/;"	s
+dram_init_banksize	board.c	/^__weak void dram_init_banksize(void)$/;"	f
+evb64260_serial_initialize	serial.c	/^serial_initfunc(evb64260_serial_initialize);$/;"	v
+failed	board.c	/^static char *failed = "*** failed ***\\n";$/;"	v	file:
+fiq	vectors.S	/^fiq:$/;"	l
+flush_dcache	start.S	/^flush_dcache:$/;"	l
+get_current	serial.c	/^static struct serial_device *get_current(void)$/;"	f	file:
+getc	serial.h	/^	int	(*getc)(void);$/;"	m	struct:serial_device
+getc	serial.h	/^	int (*getc)(struct udevice *dev);$/;"	m	struct:dm_serial_ops
+green_led_off	board.c	/^__weak void green_led_off(void) {}$/;"	f
+green_led_on	board.c	/^__weak void green_led_on(void) {}$/;"	f
+here	crt0.S	/^here:$/;"	l
+imx_serial_initialize	serial.c	/^serial_initfunc(imx_serial_initialize);$/;"	v
+init_baudrate	board.c	/^static int init_baudrate(void)$/;"	f	file:
+init_fnc_t	board.c	/^typedef int (init_fnc_t) (void);$/;"	t	file:
+init_func_i2c	board.c	/^static int init_func_i2c(void)$/;"	f	file:
+init_sequence	board.c	/^init_fnc_t *init_sequence[] = {$/;"	v
+iop480_serial_initialize	serial.c	/^serial_initfunc(iop480_serial_initialize);$/;"	v
+irq	vectors.S	/^irq:$/;"	l
+jz_serial_initialize	serial.c	/^serial_initfunc(jz_serial_initialize);$/;"	v
+leon2_serial_initialize	serial.c	/^serial_initfunc(leon2_serial_initialize);$/;"	v
+leon3_serial_initialize	serial.c	/^serial_initfunc(leon3_serial_initialize);$/;"	v
+lh7a40x_serial_initialize	serial.c	/^serial_initfunc(lh7a40x_serial_initialize);$/;"	v
+loop	serial.h	/^	int (*loop)(struct udevice *dev, int on);$/;"	m	struct:dm_serial_ops
+loop	serial.h	/^	void	(*loop)(int);$/;"	m	struct:serial_device
+lpc32xx_serial_initialize	serial.c	/^serial_initfunc(lpc32xx_serial_initialize);$/;"	v
+mark_bootstage	board.c	/^static int mark_bootstage(void)$/;"	f	file:
+marvell_serial_initialize	serial.c	/^serial_initfunc(marvell_serial_initialize);$/;"	v
+max3100_serial_initialize	serial.c	/^serial_initfunc(max3100_serial_initialize);$/;"	v
+mcf_serial_initialize	serial.c	/^serial_initfunc(mcf_serial_initialize);$/;"	v
+ml2_serial_initialize	serial.c	/^serial_initfunc(ml2_serial_initialize);$/;"	v
+monitor_flash_len	board.c	/^ulong monitor_flash_len;$/;"	v
+mpc512x_serial_initialize	serial.c	/^serial_initfunc(mpc512x_serial_initialize);$/;"	v
+mpc5xx_serial_initialize	serial.c	/^serial_initfunc(mpc5xx_serial_initialize);$/;"	v
+mpc8260_scc_serial_initialize	serial.c	/^serial_initfunc(mpc8260_scc_serial_initialize);$/;"	v
+mpc8260_smc_serial_initialize	serial.c	/^serial_initfunc(mpc8260_smc_serial_initialize);$/;"	v
+mpc85xx_serial_initialize	serial.c	/^serial_initfunc(mpc85xx_serial_initialize);$/;"	v
+mpc8xx_serial_initialize	serial.c	/^serial_initfunc(mpc8xx_serial_initialize);$/;"	v
+mxc_serial_initialize	serial.c	/^serial_initfunc(mxc_serial_initialize);$/;"	v
+mxs_auart_initialize	serial.c	/^serial_initfunc(mxs_auart_initialize);$/;"	v
+name	serial.h	/^	char	name[16];$/;"	m	struct:serial_device
+next	serial.h	/^	struct serial_device	*next;$/;"	m	struct:serial_device	typeref:struct:serial_device::serial_device
+not_used	vectors.S	/^not_used:$/;"	l
+ns16550_serial_initialize	serial.c	/^serial_initfunc(ns16550_serial_initialize);$/;"	v
+oc_serial_initialize	serial.c	/^serial_initfunc(oc_serial_initialize);$/;"	v
+on_baudrate	serial.c	/^static int on_baudrate(const char *name, const char *value, enum env_op op,$/;"	f	file:
+p3mx_serial_initialize	serial.c	/^serial_initfunc(p3mx_serial_initialize);$/;"	v
+pending	serial.h	/^	int (*pending)(struct udevice *dev, bool input);$/;"	m	struct:dm_serial_ops
+pl01x_serial_initialize	serial.c	/^serial_initfunc(pl01x_serial_initialize);$/;"	v
+power_init_board	board.c	/^__weak int power_init_board(void)$/;"	f
+prefetch_abort	vectors.S	/^prefetch_abort:$/;"	l
+putc	serial.h	/^	int (*putc)(struct udevice *dev, const char ch);$/;"	m	struct:dm_serial_ops
+putc	serial.h	/^	void	(*putc)(const char c);$/;"	m	struct:serial_device
+puts	serial.h	/^	void	(*puts)(const char *s);$/;"	m	struct:serial_device
+pxa_serial_initialize	serial.c	/^serial_initfunc(pxa_serial_initialize);$/;"	v
+red_led_off	board.c	/^__weak void red_led_off(void) {}$/;"	f
+red_led_on	board.c	/^__weak void red_led_on(void) {}$/;"	f
+reset	start.S	/^reset:$/;"	l
+s3c24xx_serial_initialize	serial.c	/^serial_initfunc(s3c24xx_serial_initialize);$/;"	v
+s5p_serial_initialize	serial.c	/^serial_initfunc(s5p_serial_initialize);$/;"	v
+sa1100_serial_initialize	serial.c	/^serial_initfunc(sa1100_serial_initialize);$/;"	v
+sandbox_serial_initialize	serial.c	/^serial_initfunc(sandbox_serial_initialize);$/;"	v
+sconsole_serial_initialize	serial.c	/^serial_initfunc(sconsole_serial_initialize);$/;"	v
+sdev	serial.h	/^	struct stdio_dev *sdev;$/;"	m	struct:serial_dev_priv	typeref:struct:serial_dev_priv::stdio_dev
+serial_assign	serial.c	/^int serial_assign(const char *name)$/;"	f
+serial_current	serial.c	/^static struct serial_device *serial_current;$/;"	v	typeref:struct:serial_device	file:
+serial_dev_priv	serial.h	/^struct serial_dev_priv {$/;"	s
+serial_device	serial.h	/^struct serial_device {$/;"	s
+serial_devices	serial.c	/^static struct serial_device *serial_devices;$/;"	v	typeref:struct:serial_device	file:
+serial_get_ops	serial.h	165;"	d
+serial_getc	serial.c	/^int serial_getc(void)$/;"	f
+serial_init	serial.c	/^int serial_init(void)$/;"	f
+serial_initfunc	serial.c	108;"	d	file:
+serial_initialize	serial.c	/^void serial_initialize(void)$/;"	f
+serial_null	serial.c	/^static void serial_null(void)$/;"	f	file:
+serial_putc	serial.c	/^void serial_putc(const char c)$/;"	f
+serial_puts	serial.c	/^void serial_puts(const char *s)$/;"	f
+serial_register	serial.c	/^void serial_register(struct serial_device *dev)$/;"	f
+serial_reinit_all	serial.c	/^void serial_reinit_all(void)$/;"	f
+serial_setbrg	serial.c	/^void serial_setbrg(void)$/;"	f
+serial_stdio_init	serial.c	/^void serial_stdio_init(void)$/;"	f
+serial_stub_getc	serial.c	/^int serial_stub_getc(struct stdio_dev *sdev)$/;"	f
+serial_stub_putc	serial.c	/^static void serial_stub_putc(struct stdio_dev *sdev, const char ch)$/;"	f	file:
+serial_stub_puts	serial.c	/^static void serial_stub_puts(struct stdio_dev *sdev, const char *str)$/;"	f	file:
+serial_stub_start	serial.c	/^static int serial_stub_start(struct stdio_dev *sdev)$/;"	f	file:
+serial_stub_stop	serial.c	/^static int serial_stub_stop(struct stdio_dev *sdev)$/;"	f	file:
+serial_stub_tstc	serial.c	/^int serial_stub_tstc(struct stdio_dev *sdev)$/;"	f
+serial_tstc	serial.c	/^int serial_tstc(void)$/;"	f
+setbrg	serial.h	/^	int (*setbrg)(struct udevice *dev, int baudrate);$/;"	m	struct:dm_serial_ops
+setbrg	serial.h	/^	void	(*setbrg)(void);$/;"	m	struct:serial_device
+sh_serial_initialize	serial.c	/^serial_initfunc(sh_serial_initialize);$/;"	v
+should_load_env	board.c	/^static int should_load_env(void)$/;"	f	file:
+software_interrupt	vectors.S	/^software_interrupt:$/;"	l
+start	serial.h	/^	int	(*start)(void);$/;"	m	struct:serial_device
+stop	serial.h	/^	int	(*stop)(void);$/;"	m	struct:serial_device
+tstc	serial.h	/^	int	(*tstc)(void);$/;"	m	struct:serial_device
+uart_post_test	serial.c	/^int uart_post_test(int flags)$/;"	f
+uartlite_serial_initialize	serial.c	/^serial_initfunc(uartlite_serial_initialize);$/;"	v
+undefined_instruction	vectors.S	/^undefined_instruction:$/;"	l
+usbtty_getc	serial.h	61;"	d
+usbtty_putc	serial.h	62;"	d
+usbtty_puts	serial.h	63;"	d
+usbtty_tstc	serial.h	64;"	d
+yellow_led_off	board.c	/^__weak void yellow_led_off(void) {}$/;"	f
+yellow_led_on	board.c	/^__weak void yellow_led_on(void) {}$/;"	f
+zynq_serial_initialize	serial.c	/^serial_initfunc(zynq_serial_initialize);$/;"	v
